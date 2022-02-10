@@ -1,0 +1,120 @@
+/*footer*/
+.footer{
+    
+}
+.footer .inner-footer{
+    display: flex;
+    justify-content: center;
+    /* padding: 50px 0; */
+}
+.footer .inner-footer .fcon{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    flex: 0 1 1400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.footer .inner-footer .fcon .left-fcon{
+    flex: 1;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.footer .inner-footer .fcon .left-fcon p{
+    /* border: 1px solid #000; */
+    line-height: 24px;
+}
+.footer .inner-footer .fcon .left-fcon p a{
+    text-decoration: underline;
+}
+.footer .inner-footer .fcon .center-fcon{
+    flex: 1;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 10px 20px;
+    
+}
+.footer .inner-footer .fcon .center-fcon ul.con{
+    /* background-color: #ccc; */
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.footer .inner-footer .fcon .center-fcon ul.con>li:nth-child(2)::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: rgba(59, 59, 59, 0.253);
+    top: 0;
+}
+.footer .inner-footer .fcon .center-fcon ul.con>li{
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    position: relative;
+}
+.footer .inner-footer .fcon .center-fcon ul.con>li img{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.footer .inner-footer .fcon .center-fcon ul.con>li .rfoot{
+    flex: 1;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.footer .inner-footer .fcon .center-fcon ul.con>li .rfoot{
+    flex: 1;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer .inner-footer .fcon .right-fcon{
+    flex: 1;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.footer .inner-footer .fcon .right-fcon a{
+    background-color: rgba(0, 0, 0, 0.575);
+    color: #fff;
+    padding: 0 5px;
+    line-height: 40px;
+}
+.footer .inner-footer .fcon .right-fcon a:hover{
+    background-color: #000;
+}
+.footer .inner-footer .fcon h1.ftitle{
+    font-weight: lighter;
+    padding: 10px 0;
+    /* background-color: #555; */
+    color: #555;
+}
+
+
+@media only screen and (max-width:959px) {
+    .footer .inner-footer .fcon{
+        flex-wrap: wrap;
+    }
+    .footer .inner-footer .fcon .left-fcon{
+        flex: 0 1 100%;
+    }
+    .footer .inner-footer .fcon .center-fcon{
+        flex: 0 1 100%;
+    }
+    .footer .inner-footer .fcon .right-fcon{
+        flex: 0 1 100%;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    
+}
